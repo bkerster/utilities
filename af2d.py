@@ -25,7 +25,7 @@ import numpy as np
 def af2d(inData):
     """ 
         (af_variance, af_boxes) = af2d(data)
-        Input: mx n matrix containing count values at x and y cooridinates 
+        Input: m x n matrix containing count values at x and y cooridinates 
         Output:
             allanFactor - Allan factor variance for increasing box sizes
             boxSeries   - box size series
